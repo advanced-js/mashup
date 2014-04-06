@@ -5,7 +5,18 @@ This project is open-ended!  Build a site that uses data from at least one exter
 * [list of API suggestions](https://gist.github.com/afeld/4952991)
 * [inspiration?](http://www.programmableweb.com/mashups)
 
-Bonus points:
+## V1
+
+First pass.
+
+## V2
+
+Iterate!
+
+* Refactor
+* Add a new feature
+
+## Bonus points
 
 * automated tests
     * [Sinon.js fakeServer](http://sinonjs.org/docs/#fakeServer) may be helpful
