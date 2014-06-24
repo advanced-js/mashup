@@ -7,6 +7,7 @@ This project is open-ended!  Requirements:
 
 In other words, the JS code should be **non-trivial**.  That being said... start simple!  No server-side coding is required, but feel free to create a backend in whatever language if you like, if you need one.
 
+* [AJAX demos](https://github.com/advanced-js/deck/tree/gh-pages/demos/ajax)
 * [list of API suggestions](https://gist.github.com/afeld/4952991)
 * [inspiration?](http://www.programmableweb.com/mashups)
 
