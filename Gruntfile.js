@@ -3,7 +3,18 @@ module.exports = function(grunt) {
     jshint: {
       files: {
         src: ['**/*.js', '!node_modules/**/*']
-      }
+      },
+      // http://www.jshint.com/docs/options/
+      eqeqeq, true,
+      forin: true,
+      freeze: true,
+      latedef: true,
+      maxdepth: 4,
+      maxparams: 3,
+      maxstatements: 10,
+      newcap: true,
+      strict: true,
+      unused: true
     },
     validation: {
       options: {
