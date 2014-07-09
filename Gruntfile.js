@@ -10,6 +10,7 @@ module.exports = function(grunt) {
       },
       // http://www.jshint.com/docs/options/
       options: {
+        browser: true,
         eqeqeq: true,
         extract: 'auto', // http://bahmutov.calepin.co/linting-javascript-inside-html.html
         forin: true,
@@ -18,8 +19,7 @@ module.exports = function(grunt) {
         maxdepth: 4,
         maxparams: 3,
         maxstatements: 10,
-        newcap: true,
-        unused: true
+        newcap: true
       }
     },
     validation: {
