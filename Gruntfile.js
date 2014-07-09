@@ -5,7 +5,9 @@ module.exports = function(grunt) {
         src: [
           '*.html',
           '**/*.js',
-          '!node_modules/**/*'
+          // excluded files
+          '!node_modules/**/*',
+          '!vendor/**/*'
         ]
       },
       // http://www.jshint.com/docs/options/
