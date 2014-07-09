@@ -19,6 +19,7 @@ module.exports = function(grunt) {
     },
     validation: {
       options: {
+        failHard: true,
         reset: true
       },
       files: {
