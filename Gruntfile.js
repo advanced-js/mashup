@@ -2,11 +2,16 @@ module.exports = function(grunt) {
   grunt.initConfig({
     jshint: {
       files: {
-        src: ['**/*.js', '!node_modules/**/*']
+        src: [
+          '*.html',
+          '**/*.js',
+          '!node_modules/**/*'
+        ]
       },
+      // http://www.jshint.com/docs/options/
       options: {
-        // http://www.jshint.com/docs/options/
         eqeqeq: true,
+        extract: 'auto', // http://bahmutov.calepin.co/linting-javascript-inside-html.html
         forin: true,
         freeze: true,
         latedef: true,
