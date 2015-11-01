@@ -23,9 +23,13 @@ Here is a [list of API suggestions](https://gist.github.com/afeld/4952991).
 
 ## V1
 
-First pass.
+Get the data to show up on the page.
 
 ## V2
+
+First pass. Get your main feature working in the simplest way possible.
+
+## V3
 
 Iterate!
 
