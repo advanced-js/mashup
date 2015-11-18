@@ -38,6 +38,7 @@ Iterate!
 
 ## Bonus points
 
+* build in an object-oriented way
 * automated tests
     * [Sinon.js fakeServer](http://sinonjs.org/docs/#fakeServer) may be helpful
 * fancy interactivity/animations
