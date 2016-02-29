@@ -16,8 +16,7 @@ The JS code should be **non-trivial**. That being said... start simple! (Just ge
 
 A couple things to look for in an API (or at least the endpoints you're using) for this project:
 
-* Make sure it doesn't require authentication (e.g. [OAuth](http://oauth.net/)).
-    * You need a server to do this.
+* Make sure it doesn't require authentication/authorization (e.g. [OAuth](http://oauth.net/)) - at least for the endpoints that you want to use - so that you don't need a server.
 * If the API doesn't support cross-domain requests (JSONP or CORS), you will need to use [JSONProxy](https://jsonp.afeld.me/).
 
 Here is a [list of API suggestions](https://gist.github.com/afeld/4952991).
